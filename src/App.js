@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Counter from "./components/Counter";
+import ClassCounter from "./components/ClassCounter";
 
 function App() {
     const [value, setValue] = useState('ТЕКСТ В ИНПУТ')
@@ -7,10 +8,7 @@ function App() {
 
     return (
         <div className="App">
-            <Counter/>
-            <Counter/>
-            <Counter/>
-            <Counter/>
+            <ClassCounter/>
         </div>
     );
 }
