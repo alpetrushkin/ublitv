@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 function App() {
     const [likes, setLikes] = useState(5)
-    const [value, setValue] = useState('ТЕКСТ В ИНПУТЕ')
+    const [value, setValue] = useState('ТЕКСТ В ИНПУТ')
 
     function increment() {
         setLikes(likes + 1)
